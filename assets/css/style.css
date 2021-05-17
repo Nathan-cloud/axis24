@@ -113,7 +113,7 @@ header {
 ----------------------------------*/
 
 .scrolltotop {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   border-radius: 50%;
   bottom: 20px;
   -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
@@ -133,7 +133,7 @@ header {
 .scrolltotop:hover,
 .scrolltotop:focus {
   background: #ffffff none repeat scroll 0 0;
-  color: #ff3d46;
+  color: #050713;
 }
 
 /*---------------------------------
@@ -609,7 +609,7 @@ header {
 .box-hover-6::before,
 .box-hover-7::before,
 .box-hover-8::before {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   bottom: 0;
   content: '';
   height: 3px;
@@ -773,7 +773,7 @@ BOX HOVER 8
 }
 
 .box-hover-9::before {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   border-radius: 50%;
   content: '';
   height: 50px;
@@ -805,7 +805,7 @@ BOX HOVER 8
 .box-hover-15::before,
 .box-hover-16::before,
 .box-hover-17::before {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   border-radius: 50%;
   content: '';
   height: 50px;
@@ -930,8 +930,8 @@ BOX HOVER 8
 
 .box-hover-18::before,
 .box-hover-20::before {
-  border-top: 15px solid #ff3d46;
-  border-left: 15px solid #ff3d46;
+  border-top: 15px solid #050713;
+  border-left: 15px solid #050713;
   border-bottom: 15px solid transparent;
   border-right: 15px solid transparent;
   left: 0;
@@ -942,8 +942,8 @@ BOX HOVER 8
 .box-hover-20::after {
   border-top: 15px solid transparent;
   border-left: 15px solid transparent;
-  border-bottom: 15px solid #ff3d46;
-  border-right: 15px solid #ff3d46;
+  border-bottom: 15px solid #050713;
+  border-right: 15px solid #050713;
   bottom: 0;
   right: 0;
 }
@@ -951,15 +951,15 @@ BOX HOVER 8
 .box-hover-21::before {
   border-bottom: 15px solid transparent;
   border-left: 15px solid transparent;
-  border-top: 15px solid #ff3d46;
-  border-right: 15px solid #ff3d46;
+  border-top: 15px solid #050713;
+  border-right: 15px solid #050713;
   right: 0;
   top: 0;
 }
 
 .box-hover-21::after {
-  border-left: 15px solid #ff3d46;
-  border-bottom: 15px solid #ff3d46;
+  border-left: 15px solid #050713;
+  border-bottom: 15px solid #050713;
   border-top: 15px solid transparent;
   border-right: 15px solid transparent;
   bottom: 0;
@@ -986,7 +986,7 @@ BOX HOVER 8
 ---------------------------- */
 
 .box-hover-22::before {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   content: '';
   height: 100%;
   left: 0;
@@ -1018,7 +1018,7 @@ BOX HOVER 8
     9. READ MORE BUTTON
 ----------------------------*/
 .readmore {
-  color: #ff3d46;
+  color: #050713;
   display: inline-block;
   font-weight: 600;
   letter-spacing: 0;
@@ -1037,7 +1037,7 @@ BOX HOVER 8
 }
 
 .read-more {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   border-radius: 50px;
   -webkit-box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
   box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
@@ -1053,7 +1053,7 @@ BOX HOVER 8
 .read-more:hover,
 .read-more:focus {
   background: #ffffff none repeat scroll 0 0;
-  color: #ff3d46;
+  color: #050713;
 }
 
 a.more-button {
@@ -1362,7 +1362,7 @@ a.more-button:hover i {
 }
 
 .founder-detials.flex-v-center > h4 span {
-  color: #ff3d46;
+  color: #050713;
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -1474,7 +1474,7 @@ a.more-button:hover i {
 }
 
 .single-progressbar .count-bar.color-2 {
-  background: #ff3d46;
+  background: #050713;
 }
 
 .single-progressbar .count-bar.color-3 {
@@ -1520,7 +1520,7 @@ a.more-button:hover i {
 }
 
 .single-progressbar .count-bar.color-2 .count {
-  color: #ff3d46;
+  color: #050713;
 }
 
 .single-progressbar .count-bar.color-3 .count {
@@ -1556,7 +1556,7 @@ a.more-button:hover i {
 }
 
 .video-area-popup {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   border-radius: 50%;
   -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
@@ -1578,7 +1578,7 @@ a.more-button:hover i {
 
 .video-area-popup:hover {
   background: #ffffff none repeat scroll 0 0;
-  color: #ff3d46;
+  color: #050713;
 }
 
 /*-------------------------------
@@ -1719,8 +1719,8 @@ a.more-button:hover i {
 }
 
 .cta-button:hover {
-  background-color: #ff3d46;
-  border-color: #ff3d46;
+  background-color: #050713;
+  border-color: #050713;
   color: #ffffff;
 }
 
@@ -1812,7 +1812,7 @@ a.more-button:hover i {
 }
 
 .single-team-eleven .member-social-bookmark li a:hover {
-  background: #ff3d46;
+  background: #050713;
   color: #ffffff;
 }
 
@@ -1894,7 +1894,7 @@ a.more-button:hover i {
 
 .single-blog-item-three .single-blog-item-three .blog-title a:hover,
 .single-blog-item-three .post-by a:hover {
-  color: #ff3d46;
+  color: #050713;
 }
 
 /*---------------------------------
@@ -2081,7 +2081,7 @@ a.more-button:hover i {
 }
 
 .portfolio-big-thumb {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   border-radius: 50%;
   -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
@@ -2098,7 +2098,7 @@ a.more-button:hover i {
 .portfolio-big-thumb:hover,
 .portfolio-big-thumb:focus {
   background: #ffffff none repeat scroll 0 0;
-  color: #ff3d46;
+  color: #050713;
 }
 
 /*--------------------------------
@@ -2139,7 +2139,7 @@ a.more-button:hover i {
 }
 
 .video-popup-button:hover {
-  background: #ff3d46;
+  background: #050713;
   color: #ffffff;
 }
 
@@ -2183,7 +2183,7 @@ a.more-button:hover i {
 }
 
 .single-testmonial-ten .designation {
-  color: #ff3d46;
+  color: #050713;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -2261,7 +2261,7 @@ a.more-button:hover i {
 }
 
 .home-alt ul#nav li a:hover {
-  color: #ff3d46;
+  color: #050713;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -2381,9 +2381,32 @@ a.more-button:hover i {
   color: inherit;
 }
 
+/* .barner-area .area-bg {
+  background: -webkit-gradient(
+        linear,
+        right top,
+        left top,
+        from(#84c0e3),
+        to(rgb(56 182 255))
+      )
+      repeat scroll 0 0%,
+    rgba(0, 0, 0, 0) -webkit-gradient(
+        linear,
+        right top,
+        left top,
+        from(#84c0e3),
+        to(rgb(56 182 255))
+      ) repeat scroll 0 0;
+  background: linear-gradient(to left, #84cde3, rgb(56 182 255)) repeat scroll 0
+      0%,
+    rgba(0, 0, 0, 0) linear-gradient(to left, #8490e3, rgb(56 182 255)) repeat
+      scroll 0 0;
+} */
+
 .barner-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('/assets/img/header-bg.jpg') no-repeat scroll
-    right 40% center / cover;
+  background: linear-gradient(to right top, #84cde3, #58c6e7c2),
+    url('/assets/img/header-bg.jpg') no-repeat scroll, center;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2545,7 +2568,7 @@ a.more-button:hover i {
 
 .portfolio-pagination-center-grid a:hover,
 .portfolio-pagination-center-grid a:focus {
-  color: #ff3d46;
+  color: #050713;
 }
 
 .prev-portfolio {
@@ -2662,7 +2685,7 @@ a.more-button:hover i {
 }
 
 .related-portfolio-area .owl-carousel .owl-nav > div:hover {
-  background: #ff3d46;
+  background: #050713;
   color: #ffffff;
 }
 
@@ -2773,7 +2796,7 @@ a.more-button:hover i {
 }
 
 .active .accordion-toggle {
-  color: #ff3d46;
+  color: #050713;
 }
 
 .panel-body {
@@ -2827,7 +2850,7 @@ a.more-button:hover i {
 --------------------------------*/
 
 .price-protional-text p {
-  color: #ff3d46;
+  color: #050713;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -2850,7 +2873,7 @@ a.more-button:hover i {
 }
 
 .price-top-section .price-title {
-  color: #ff3d46;
+  color: #050713;
   letter-spacing: 2px;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -2971,7 +2994,7 @@ a.more-button:hover i {
   background: #ffffff none repeat scroll 0 0;
   -webkit-box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
   box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
-  color: #ff3d46;
+  color: #050713;
 }
 
 .woocommerce-result-count,
@@ -2985,7 +3008,7 @@ a.more-button:hover i {
   color: #0a0c19;
 }
 .woocommerce-product-title a:hover {
-  color: #ff3d46;
+  color: #050713;
 }
 ul.products {
   list-style: outside none none;
@@ -3072,7 +3095,7 @@ ul.products .product img {
 }
 
 .related-portfolio-area .owl-carousel .owl-nav > div:hover {
-  background: #ff3d46;
+  background: #050713;
   color: #ffffff;
 }
 
@@ -3128,7 +3151,7 @@ ul.products .product img {
 
 .products-pagination ul li a:hover,
 .products-pagination ul li.active a {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   color: #ffffff;
   -webkit-box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
   box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
@@ -3168,7 +3191,7 @@ ul.products .product img {
 }
 
 .product-price .discount-price {
-  color: #ff3d46;
+  color: #050713;
 }
 
 .product_attributes {
@@ -3244,7 +3267,7 @@ ul.products .product img {
 }
 
 .quantity span:hover {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -3271,7 +3294,7 @@ ul.products .product img {
 }
 
 .wishlist-and-popup li a:hover {
-  background: #ff3d46 none repeat scroll 0 0;
+  background: #050713 none repeat scroll 0 0;
   -webkit-box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
   box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
   color: #ffffff;
@@ -3319,8 +3342,8 @@ ul.products .product img {
 .product-speacification-menu > li a:hover,
 .product-speacification-menu > li.active a,
 .product-speacification-menu > li a:focus {
-  background: #ff3d46 none repeat scroll 0 0;
-  border-color: #ff3d46;
+  background: #050713 none repeat scroll 0 0;
+  border-color: #050713;
   -webkit-box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
   box-shadow: 0 16px 32px rgba(255, 61, 70, 0.2);
   color: #ffffff;
@@ -3829,7 +3852,7 @@ body.home-alt3 {
 }
 
 .single-price-plan-two .price-rate span.price-currency-sign {
-  color: #ff3d46;
+  color: #050713;
   font-size: 14px;
   margin: 0;
 }
