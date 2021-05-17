@@ -1,120 +1,145 @@
 .footer-area a:hover {
-    color: #ff3d46;
+  color: #ff3d46;
 }
 
 .footer-logo {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .single-footer-widgets,
 .single-footer-widgets a {
-    color: #a8acc9;
+  color: #a8acc9;
 }
 
 .footer-contact {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .footer-contact i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .single-footer-widgets h3 {
-    font-weight: 600;
-    margin-bottom: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 
 .single-footer-widgets ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
 }
 
 .single-footer-widgets ul li {
-    display: block;
-    margin-bottom: 8px;
-    position: relative;
+  display: block;
+  margin-bottom: 8px;
+  position: relative;
 }
 
 .widget_instagram ul {
-    margin: -5px;
+  margin: -5px;
 }
 
 .widget_instagram li {
-    float: left;
-    margin: 0 !important;
-    padding: 5px;
-    width: 33%;
+  float: left;
+  margin: 0 !important;
+  padding: 5px;
+  width: 33%;
 }
 
 .widget_instagram li img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .social-bookmark {
-    list-style: outside none none;
-    padding: 0;
+  list-style: outside none none;
+  padding: 0;
 }
 
 .footer-social-bookmark .social-bookmark li a {
-    border: 1px solid;
-    border-radius: 50%;
-    height: 40px;
-    margin: 0 5px;
-    padding-top: 6px;
-    text-align: center;
-    width: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  height: 40px;
+  margin: 0 5px;
+  padding-top: 6px;
+  text-align: center;
+  width: 40px;
 }
 
 .footer-social-bookmark .social-bookmark li a:hover {
-    background: #ff3d46 none repeat scroll 0 0;
-    border-color: #ff3d46;
-    color: #ffffff;
+  background: #ff3d46 none repeat scroll 0 0;
+  border-color: #ff3d46;
+  color: #ffffff;
+}
+.contact-area {
+  padding: 5em;
+}
+.contact-form {
+  position: relative;
+  z-index: 1;
 }
 
-.footer-subscriber-form form {
-    border: 2px solid #373c62;
-    height: 60px;
-    position: relative;
-    margin-top: 40px;
+.contact-form .contact-heading {
+  margin-bottom: 30px;
 }
 
-.footer-subscriber-form form input {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 0 none;
-    height: 100%;
-    left: 0;
-    padding: 10px;
-    position: absolute;
-    top: 0;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: calc(100% - 60px);
+.contact-form .contact-heading h2 {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 36px;
 }
 
-.footer-subscriber-form form:focus {
-    border-color: #ff3d46;
-}
-
-.footer-subscriber-form form button {
-    background: #ff3d46 none repeat scroll 0 0;
-    border: 0 none;
-    color: #ffffff;
+@media only screen and (max-width: 767px) {
+  .contact-form .contact-heading h2 {
     font-size: 24px;
-    height: calc(100% + 4px);
-    position: absolute;
-    right: -2px;
-    top: -2px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 60px;
+  }
 }
 
-.footer-subscriber-form form button:hover {
-    background: #ffffff none repeat scroll 0 0;
-    color: #ff3d46;
+.contact-form .contact-heading h5 {
+  margin-bottom: 0;
+  font-size: 18px;
 }
 
+@media only screen and (max-width: 767px) {
+  .contact-form .contact-heading h5 {
+    font-size: 14px;
+  }
+}
+
+.contact-form .form-control {
+  padding: 3%;
+  margin: 3%;
+  font-size: 13px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: none;
+  border-color: #16bac5;
+}
+
+.contact-form textarea.form-control {
+  height: 110px;
+  padding: 15px;
+}
+.contact-form button {
+  margin: 2.5%;
+  padding: 3%;
+  background-color: rgb(56 182 255);
+  color: #fff;
+  border-radius: 4px;
+}
+.contact-form button:hover {
+  margin: 2.5%;
+  padding: 3%;
+  background-color: #fff;
+  color: rgb(56 182 255);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+}
 .footer-copyright {
-    padding: 30px 0;
+  padding: 30px 0;
 }
