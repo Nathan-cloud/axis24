@@ -1107,7 +1107,7 @@ a.more-button:hover i {
     10. WELCOME TEXT AREA
 ------------------------------*/
 .welcome-text-area .area-bg {
-  background: url(assets/img/home/home_bg.png) no-repeat scroll center center /
+  background: url(/assets/img/home/home_bg.png) no-repeat scroll center center /
     100% 100%;
 }
 
@@ -1402,14 +1402,14 @@ a.more-button:hover i {
         from(#84c0e3),
         to(rgb(56 182 255))
       ) repeat scroll 0 0;
-  background: linear-gradient(to left, #8490e3, rgb(56 182 255)) repeat scroll 0
+  background: linear-gradient(to left, #84cde3, rgb(56 182 255)) repeat scroll 0
       0%,
     rgba(0, 0, 0, 0) linear-gradient(to left, #8490e3, rgb(56 182 255)) repeat
       scroll 0 0;
 }
 
 .fun-fact-area .area-bg::after {
-  background: rgba(0, 0, 0, 0) url('assets/img/funfact-map.png') no-repeat
+  background: rgba(0, 0, 0, 0) url('/assets/img/funfact-map.png') no-repeat
     scroll center center;
 }
 
@@ -1676,8 +1676,8 @@ a.more-button:hover i {
     16. CALL TO ACTION
 --------------------------------*/
 .call-to-action-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/call-to-bg.jpg') no-repeat scroll
-    center center / cover;
+  background: rgba(0, 0, 0, 0) url('/assets/img/call-to-bg.jpg') no-repeat
+    scroll center center / cover;
   z-index: -1;
 }
 
@@ -1936,7 +1936,7 @@ a.more-button:hover i {
 ----------------------------------*/
 
 .portfolio-slider-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/bg-layers/area-map.png')
+  background: rgba(0, 0, 0, 0) url('/assets/img/bg-layers/area-map.png')
     no-repeat scroll center bottom;
 }
 
@@ -2110,8 +2110,8 @@ a.more-button:hover i {
 }
 
 .video-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/video-bg-2.jpg') no-repeat scroll
-    center center / cover;
+  background: rgba(0, 0, 0, 0) url('/assets/img/video-bg-2.jpg') no-repeat
+    scroll center center / cover;
 }
 
 .video-area .area-bg::after {
@@ -2240,7 +2240,7 @@ a.more-button:hover i {
     23. HOME VERSION TWO
 -----------------------------------*/
 .home-alt .welcome-text-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/home/home_welcome_bg.png')
+  background: rgba(0, 0, 0, 0) url('/assets/img/home/home_welcome_bg.png')
     no-repeat scroll left top;
 }
 
@@ -2334,7 +2334,7 @@ a.more-button:hover i {
 }
 
 .home-alt .fun-fact-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/bg-layers/funfact-layer.png')
+  background: rgba(0, 0, 0, 0) url('/assets/img/bg-layers/funfact-layer.png')
     no-repeat scroll center center;
 }
 
@@ -2343,7 +2343,7 @@ a.more-button:hover i {
 }
 
 .home-alt .team-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/bg-layers/area-map.png')
+  background: rgba(0, 0, 0, 0) url('/assets/img/bg-layers/area-map.png')
     no-repeat scroll center center;
 }
 
@@ -2382,7 +2382,7 @@ a.more-button:hover i {
 }
 
 .barner-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/header-bg.jpg') no-repeat scroll
+  background: rgba(0, 0, 0, 0) url('/assets/img/header-bg.jpg') no-repeat scroll
     right 40% center / cover;
 }
 
@@ -3381,7 +3381,7 @@ ul.products .product img {
     31. HOME THREE
 -------------------------------*/
 .top-subhidding {
-  color: rgb(76, 85, 196);
+  color: rgb(56 182 255);
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -3436,8 +3436,8 @@ a.video-button:hover {
 
 .top-bg-layer-1,
 .top-bg-layer-2 {
-  background: rgba(0, 0, 0, 0) url('assets/img/home/home_bg_layer_2.png')
-    no-repeat scroll left top;
+  background: rgba(0, 0, 0, 0) url('/assets/img/home_bg_layer_1.png') no-repeat
+    scroll left top;
   height: 100%;
   left: 0;
   position: absolute;
@@ -3446,8 +3446,8 @@ a.video-button:hover {
 }
 
 .top-bg-layer-2 {
-  background: rgba(0, 0, 0, 0) url('assets/img/home/home_bg_layer_1.png')
-    no-repeat scroll right top;
+  background: rgba(0, 0, 0, 0) url('/assets/img/home_bg_layer_1.png') no-repeat
+    scroll right top;
 }
 
 .home-alt2 ul#nav li a {
@@ -3634,8 +3634,8 @@ body.home-alt3 {
 }
 
 .home-alt3 .welcome-text-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/home/home_four_bg.png') no-repeat
-    scroll center center / 100% 100%;
+  background: rgba(0, 0, 0, 0) url('/assets/img/home/home_four_bg.png')
+    no-repeat scroll center center / 100% 100%;
 }
 
 /*
@@ -3737,7 +3737,7 @@ body.home-alt3 {
     CORE FEATURES AREA
 ----------------------------*/
 .core-features-area .area-bg {
-  background: rgba(0, 0, 0, 0) url('assets/img/features-bg.png') no-repeat
+  background: rgba(0, 0, 0, 0) url('/assets/img/features-bg.png') no-repeat
     scroll center center / cover;
 }
 
