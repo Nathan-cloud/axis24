@@ -16,7 +16,7 @@ header {
 }
 
 .background-blue {
-  background: #4c55c4 !important;
+  background: rgb(56 182 255) !important;
   -webkit-box-shadow: 0 16px 32px rgba(76, 85, 196, 0.2) !important;
   box-shadow: 0 16px 32px rgba(76, 85, 196, 0.2) !important;
   color: #ffffff !important;
@@ -47,7 +47,7 @@ header {
     2. PRELOADER
 -----------------------------*/
 .preeloader {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   height: 100%;
   position: fixed;
   width: 100%;
@@ -190,7 +190,7 @@ header {
 }
 
 .subtitle {
-  color: #4c55c4;
+  color: rgb(56 182 255);
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 2px;
@@ -254,7 +254,7 @@ header {
 }
 
 .owl-carousel .owl-nav > div {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   border-radius: 50%;
   -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
@@ -275,7 +275,7 @@ header {
 
 .owl-carousel .owl-nav > div:hover {
   background: #ffffff;
-  color: #4c55c4;
+  color: rgb(56 182 255);
 }
 
 .owl-carousel .owl-nav > div.owl-next {
@@ -352,9 +352,9 @@ header {
 
 .text-icon-box:hover .box-img-icon img {
   -webkit-filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg)
-    brightness(200%) contrast(100%) drop-shadow(7px 10px 3px #2d1e9d);
+    brightness(200%) contrast(100%) drop-shadow(7px 10px 3px rgb(56 182 255));
   filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg)
-    brightness(200%) contrast(100%) drop-shadow(7px 10px 3px #2d1e9d);
+    brightness(200%) contrast(100%) drop-shadow(7px 10px 3px rgb(56 182 255));
 }
 
 .box-title {
@@ -1060,7 +1060,7 @@ a.more-button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   border-radius: 50px;
   color: #ffffff;
   display: -webkit-inline-box;
@@ -1080,7 +1080,7 @@ a.more-button {
 
 a.more-button:hover {
   background: #ffffff;
-  color: #4c55c4;
+  color: rgb(56 182 255);
 }
 
 a.more-button i {
@@ -1099,7 +1099,7 @@ a.more-button i {
 }
 
 a.more-button:hover i {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -1142,7 +1142,7 @@ a.more-button:hover i {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   border-radius: 50px;
   color: #ffffff;
   display: -webkit-inline-box;
@@ -1162,7 +1162,7 @@ a.more-button:hover i {
 
 .home-button a:hover {
   background: #ffffff;
-  color: #4c55c4;
+  color: rgb(56 182 255);
 }
 
 .home-button a i {
@@ -1181,7 +1181,7 @@ a.more-button:hover i {
 }
 
 .home-button a:hover i {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -1337,7 +1337,7 @@ a.more-button:hover i {
 .round-button {
   background: #f7f8ff none repeat scroll 0 0;
   border-radius: 50%;
-  color: #4c55c4;
+  color: rgb(56 182 255);
   display: inline-block;
   height: 40px;
   padding-top: 7px;
@@ -1345,7 +1345,7 @@ a.more-button:hover i {
 }
 
 .round-button:hover {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -1391,20 +1391,21 @@ a.more-button:hover i {
         linear,
         right top,
         left top,
-        from(#8490e3),
-        to(#2d1e9d)
+        from(#84c0e3),
+        to(rgb(56 182 255))
       )
       repeat scroll 0 0%,
     rgba(0, 0, 0, 0) -webkit-gradient(
         linear,
         right top,
         left top,
-        from(#8490e3),
-        to(#2d1e9d)
+        from(#84c0e3),
+        to(rgb(56 182 255))
       ) repeat scroll 0 0;
-  background: linear-gradient(to left, #8490e3, #2d1e9d) repeat scroll 0 0%,
-    rgba(0, 0, 0, 0) linear-gradient(to left, #8490e3, #2d1e9d) repeat scroll 0
-      0;
+  background: linear-gradient(to left, #8490e3, rgb(56 182 255)) repeat scroll 0
+      0%,
+    rgba(0, 0, 0, 0) linear-gradient(to left, #8490e3, rgb(56 182 255)) repeat
+      scroll 0 0;
 }
 
 .fun-fact-area .area-bg::after {
@@ -1469,7 +1470,7 @@ a.more-button:hover i {
 }
 
 .single-progressbar .count-bar.color-1 {
-  background: #4c55c4;
+  background: rgb(56 182 255);
 }
 
 .single-progressbar .count-bar.color-2 {
@@ -1515,7 +1516,7 @@ a.more-button:hover i {
 }
 
 .single-progressbar .count-bar.color-1 .count {
-  color: #4c55c4;
+  color: rgb(56 182 255);
 }
 
 .single-progressbar .count-bar.color-2 .count {
@@ -1617,7 +1618,7 @@ a.more-button:hover i {
         right top,
         left top,
         from(#8490e3),
-        to(#2d1e9d)
+        to(rgb(56 182 255))
       )
       repeat scroll 0 0%,
     rgba(0, 0, 0, 0) -webkit-gradient(
@@ -1625,11 +1626,12 @@ a.more-button:hover i {
         right top,
         left top,
         from(#8490e3),
-        to(#2d1e9d)
+        to(rgb(56 182 255))
       ) repeat scroll 0 0;
-  background: linear-gradient(to left, #8490e3, #2d1e9d) repeat scroll 0 0%,
-    rgba(0, 0, 0, 0) linear-gradient(to left, #8490e3, #2d1e9d) repeat scroll 0
-      0;
+  background: linear-gradient(to left, #8490e3, rgb(56 182 255)) repeat scroll 0
+      0%,
+    rgba(0, 0, 0, 0) linear-gradient(to left, #8490e3, rgb(56 182 255)) repeat
+      scroll 0 0;
   content: '';
   height: 100%;
   left: 0;
@@ -1766,7 +1768,7 @@ a.more-button:hover i {
 }
 
 .single-team-eleven .designation {
-  color: #4c55c4;
+  color: rgb(56 182 255);
   font-size: 16px;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -1845,7 +1847,7 @@ a.more-button:hover i {
 }
 
 .single-blog-item-three .blog-date {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
@@ -1879,7 +1881,7 @@ a.more-button:hover i {
 }
 
 .single-blog-item-three .post-by a {
-  color: #4c55c4;
+  color: rgb(56 182 255);
 }
 
 .single-blog-item-three .single-blog-item-three .blog-title {
@@ -1964,7 +1966,7 @@ a.more-button:hover i {
 }
 
 .portfolio-menu ul li::after {
-  background: #4c55c4;
+  background: rgb(56 182 255);
   bottom: -4px;
   content: '';
   height: 4px;
@@ -1977,7 +1979,7 @@ a.more-button:hover i {
 }
 
 .portfolio-menu ul li.active {
-  color: #4c55c4;
+  color: rgb(56 182 255);
 }
 
 .portfolio-menu ul li.active:after {
@@ -2028,10 +2030,10 @@ a.more-button:hover i {
       left top,
       left bottom,
       from(#8490e3),
-      to(#2d1e9d)
+      to(rgb(56 182 255))
     ) repeat scroll 0 0;
-  background: rgba(0, 0, 0, 0) linear-gradient(#8490e3, #2d1e9d) repeat scroll 0
-    0;
+  background: rgba(0, 0, 0, 0) linear-gradient(#8490e3, rgb(56 182 255)) repeat
+    scroll 0 0;
   opacity: 0;
   place-content: center;
   -webkit-transform: scale(2);
@@ -2145,7 +2147,7 @@ a.more-button:hover i {
     22. TESTMONIAL STYLE TEN
 ----------------------------------*/
 .single-testmonial-ten .testmonial-quote {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   border-radius: 50%;
   -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
@@ -2538,7 +2540,7 @@ a.more-button:hover i {
 }
 
 .portfolio-pagination-center-grid a {
-  color: #4c55c4;
+  color: rgb(56 182 255);
 }
 
 .portfolio-pagination-center-grid a:hover,
@@ -2753,7 +2755,7 @@ a.more-button:hover i {
 
 .detials-list ul li:hover i,
 .detials-list ul li.active i {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -2860,7 +2862,7 @@ a.more-button:hover i {
 }
 
 .promo-sale {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   border-radius: 30px 30px 0 0;
   color: #ffffff;
   padding: 20px;
@@ -2889,7 +2891,7 @@ a.more-button:hover i {
 }
 
 .price-button {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   border-radius: 50px;
   -webkit-box-shadow: 0 16px 32px rgba(76, 85, 196, 0.2);
   box-shadow: 0 16px 32px rgba(76, 85, 196, 0.2);
@@ -2904,7 +2906,7 @@ a.more-button:hover i {
 .price-button:hover,
 .price-button:focus {
   background: #ffffff none repeat scroll 0 0;
-  color: #4c55c4;
+  color: rgb(56 182 255);
 }
 
 .single-price-plan ul {
@@ -3049,7 +3051,7 @@ ul.products .product img {
 }
 
 .product-category {
-  color: #4c55c4;
+  color: rgb(56 182 255);
   float: left;
   font-weight: 500;
   font-size: 16px;
@@ -3108,7 +3110,7 @@ ul.products .product img {
 }
 
 .products-pagination ul li a {
-  background: #4c55c4 none repeat scroll 0 0;
+  background: rgb(56 182 255) none repeat scroll 0 0;
   border-radius: 50%;
   -webkit-box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);

@@ -1108,7 +1108,7 @@
 }
 
 .single-widgets .search-form button {
-    background: #4c55c4 none repeat scroll 0 0;
+    background: rgb(56 182 255)  none repeat scroll 0 0;
     border: 0 none;
     color: #ffffff;
     height: 60px;
