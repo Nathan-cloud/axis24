@@ -3461,8 +3461,8 @@ a.video-button:hover {
 
 .top-bg-layer-1,
 .top-bg-layer-2 {
-  background: rgba(0, 0, 0, 0) url('/assets/img/home_bg_layer_1.png') no-repeat
-    scroll left top;
+  background: rgba(0, 0, 0, 0) url('/assets/img/home/home_bg_layer_1.png')
+    no-repeat scroll left top;
   height: 100%;
   left: 0;
   position: absolute;
@@ -3471,8 +3471,8 @@ a.video-button:hover {
 }
 
 .top-bg-layer-2 {
-  background: rgba(0, 0, 0, 0) url('/assets/img/home_bg_layer_1.png') no-repeat
-    scroll right top;
+  background: rgba(0, 0, 0, 0) url('/assets/img/home/home_bg_layer_1.png')
+    no-repeat scroll right top;
 }
 
 .home-alt2 ul#nav li a {
