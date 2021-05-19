@@ -14,7 +14,9 @@ header {
 .single-blog-item-three {
   z-index: 9;
 }
-
+li {
+  list-style: none;
+}
 .background-blue {
   background: rgb(56 182 255) !important;
   -webkit-box-shadow: 0 16px 32px rgba(76, 85, 196, 0.2) !important;
@@ -22,8 +24,8 @@ header {
   color: #ffffff !important;
 }
 
-.background-yellow {
-  background: #eea313 !important;
+.background-ig {
+  background: #9e51d1af !important;
   -webkit-box-shadow: 0 16px 32px rgba(238, 163, 19, 0.2) !important;
   box-shadow: 0 16px 32px rgba(238, 163, 19, 0.2) !important;
   color: #ffffff !important;
@@ -37,7 +39,7 @@ header {
 }
 
 .background-green {
-  background: #8cc032 !important;
+  background: rgb(114, 114, 223) !important;
   -webkit-box-shadow: 0 16px 32px rgba(140, 192, 50, 0.2) !important;
   box-shadow: 0 16px 32px rgba(140, 192, 50, 0.2) !important;
   color: #ffffff !important;
