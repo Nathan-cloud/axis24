@@ -3164,6 +3164,10 @@ ul.products .product img {
 .single-thumb img {
   width: 100%;
 }
+.single-thumb-desc img {
+  width: 50%;
+  height: 50%;
+}
 
 .total-review .ratting {
   float: none;
