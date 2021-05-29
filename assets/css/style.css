@@ -2411,6 +2411,11 @@ a.more-button:hover i {
     url('/assets/img/header-bg.jpg') no-repeat scroll, center;
   background-size: cover;
 }
+.modal-content {
+  background: linear-gradient(to right top, #84cde3, #58c6e7c2),
+    url('/assets/img/bg-form.jpg') no-repeat scroll, center center;
+  background-size: cover;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .welcome-text h1 {

@@ -4,7 +4,7 @@
 }
 
 #sidebar {
-  width: 400px;
+  width: 600px;
   background: rgb(56 182 255);
   color: #fff;
   transition: all 0.3s;
@@ -24,8 +24,8 @@
 }
 #sidebar .sidebar-header {
   padding: 1%;
-  font-size: 1.1em;
-  background: #fff;
+  font-size: 6px;
+  border-bottom: 1px solid #fff;
 }
 
 #sidebar ul li a:hover {
@@ -66,6 +66,10 @@ ul.CTAs a {
   display: block;
   border-radius: 5px;
   margin-bottom: 5px;
+}
+#sidebar .panel-mark {
+  background-color: #ccc;
+  width: 100%;
 }
 
 /* ---------------------------------------------------
