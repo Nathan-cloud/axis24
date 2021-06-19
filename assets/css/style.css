@@ -5,7 +5,7 @@
 @import url('blog-and-pages.css');
 @import url('footer.css');
 @import url('responsive.css');
-@import url('sidebar.css');
+
 section,
 header {
   background: #ffffff none repeat scroll 0 0;
@@ -3169,12 +3169,11 @@ ul.products .product img {
 -----------------------------*/
 .single-thumb img {
   width: 100%;
+  margin: 3% 0;
 }
 .single-thumb-desc img {
-  width: 80%;
-  height: 90%;
-  padding: 10%;
-  margin-left: 30%;
+  margin: 4% 4px;
+  padding: 6px 10px;
 }
 
 .total-review .ratting {

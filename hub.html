@@ -24,6 +24,7 @@
 
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/sidebar.css">
 <body class="blog" data-spy="scroll" data-target=".mainmenu-area" data-offset="90">
 
 
@@ -130,7 +131,7 @@
     <div class="wrapper">
     <nav id="sidebar">
       <div class="sidebar-header">
-        <h3>Digital products</h3>
+        <p>Digital products</p>
       </div>
 
         <ul class="list-unstyled components">
@@ -198,59 +199,86 @@
         </ul>
 
       </nav>
-      <div class="content" id="content">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
+      <div class="body"> 
+        <div class="container-content">
+          <div class="card-content">
+            <div class="card-header">
+              <img src="assets/img/products/product-1.jpg" alt="rover" />
+            </div>
+            <div class="card-body">
+           
+              <h4>
+                	Instapreneur Academy
+              </h4>
+              <p>
+                How To Build A Massive Following And Reach Financial Independence Through Instagram Business?
+              </p>
+              <a href="#darkModalForm" data-toggle="modal"><span class="tag tag-pink">Get Started</span></a>
           
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="assets/img/products/product-1.jpg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Tube Mastery and Monetization </h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><a href="#darkModalForm" data-toggle="modal"  class="btn btn-primary">Get Started</a></p>
-                </div>
-              </div>
             </div>
           </div>
+          <div class="card-content">
+            <div class="card-header">
+              <img src="assets/img/products/product-1.jpg" alt="ballons" />
             </div>
-            <div class="col-md-6">
+            <div class="card-body">
+           
+              <h4>
+                Instapreneur Academy
+            </h4>
+            <p>
+              How To Build A Massive Following And Reach Financial Independence Through Instagram Business?
+            </p>
+              <a href="#darkModalForm" data-toggle="modal"><span class="tag tag-pink">Get Started</span></a>
           
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="assets/img/products/product-1.jpg" class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">	Instapreneur Academy</h5>
-                      <p class="card-text">How To Build A Massive Following And Reach Financial Independence Through Instagram Business?
-                        Did you know the number one reason people don't make money online is not due to it's hard but because they don't have a following?
-                        In fact, here's the biggest problem you face right now...
-                        Most People Think That Building A Following On Instagram Is So Hard And Takes So Long That They Can't Imagine Becoming An Instagram Entrepreneur.
-                        </p>
-                      <p class="card-text"><a href="#darkModalForm" data-toggle="modal"  class="btn btn-primary">Get Started</a></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <img src="assets/img/products/product-1.jpg" alt="city" />
+            </div>
+            <div class="card-body">
+           
+              <h4>
+                Instapreneur Academy
+            </h4>
+            <p>
+              How To Build A Massive Following And Reach Financial Independence Through Instagram Business?
+            </p>
+              <a href="#darkModalForm" data-toggle="modal"><span class="tag tag-pink">Get Started</span></a>
+          
+            </div>
+          </div>
+          <!-- <div class="card-body">
+            <button type="button" class="btn btn-outline-primary"> < </button>
+            <button type="button" class="btn btn-outline-primary"> 1 </button>
+            <button type="button" class="btn btn-outline-primary"> 2 </button>
+            <button type="button" class="btn btn-outline-primary"> 3 </button>
+            <button type="button" class="btn btn-outline-primary"> > </button>
+           
+        </div> -->
+          </div>
+     
 
-              
-                </div>
-                
-                
-          </div>
-          </div>
-    </div>
-      
+</div>
+</div>
+
+  <div class="products-pagination center mt50">
+  <ul>
+  <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+  </div>
+
       
 
 
 </section>
+
 
 <footer class="footer-area white">
   <div class="footer-top-area alt-dark-bg section-padding">
@@ -332,7 +360,7 @@
           <!--Body-->
           <div class="modal-body">
             <!--Body-->
-            <form action="description.html" method="POST">
+            <form action="go.php" method="POST">
               <div class="md-form mb-5">
                 <input type="text" id="Form-email5" class="form-control validate white-text" required  placeholder="Your Name">
                 <label data-error="wrong" data-success="right" for="Form-email5">Name</label>
