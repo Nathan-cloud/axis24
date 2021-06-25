@@ -1,3 +1,3 @@
 <?php
-header('location:decription.html');
+header('location:description.html');
 ?>
