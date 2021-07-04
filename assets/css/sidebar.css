@@ -175,6 +175,7 @@ ul.CTAs a {
 }
 .card-body h4 {
   text-transform: uppercase;
+  font-size:13px;
 }
 .btn-outline-primary {
   padding: 10% 10px;
