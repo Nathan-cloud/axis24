@@ -3819,7 +3819,7 @@ body.home-alt3 {
   display: inline-block;
   list-style: outside none none;
   margin: 0;
-  padding: 10px;
+  padding: 20px 20px 20px 10px;
 }
 
 .yearly-monthly-menu ul li {
@@ -3830,9 +3830,8 @@ body.home-alt3 {
 .yearly-monthly-menu ul li a {
   border-radius: 50px;
   color: #ffffff;
-  margin: 0 5px;
   overflow: hidden;
-  padding: 15px 30px;
+  padding: 10px 20px;
 }
 
 .yearly-monthly-menu ul li.active a {
