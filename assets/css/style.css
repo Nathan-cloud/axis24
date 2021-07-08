@@ -3815,11 +3815,10 @@ body.home-alt3 {
 
 .yearly-monthly-menu ul {
   background: #38cb89 none repeat scroll 0 0;
-  border-radius: 50px;
   display: inline-block;
   list-style: outside none none;
   margin: 0;
-  padding: 20px 20px 20px 10px;
+  padding: 35px 40px;
 }
 
 .yearly-monthly-menu ul li {
@@ -3828,7 +3827,6 @@ body.home-alt3 {
 }
 
 .yearly-monthly-menu ul li a {
-  border-radius: 50px;
   color: #ffffff;
   overflow: hidden;
   padding: 13px 15px;
@@ -3836,6 +3834,7 @@ body.home-alt3 {
 
 .yearly-monthly-menu ul li.active a {
   background: #ffffff none repeat scroll 0 0;
+  border-radius: none;
   color: #252525;
 }
 
