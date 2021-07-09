@@ -145,6 +145,39 @@ jQuery(document).on(
         $(this).html(countNumber);
       });
     });
+    /*------------------------------
+       SELECT TEAM
+    -------------------------------*/
+
+    $(window).on('load', function () {
+      $('.projects-grid').each(function () {
+        var $container = $(this);
+        $container.isotope({
+          itemSelector: '.project-item',
+          animationEngine: 'css',
+        });
+
+        var $optionSets = $('.project_filters'),
+          $optionLinks = $optionSets.find('a');
+
+        $optionLinks.on('click', function () {
+          var $this = $(this);
+
+          if ($this.hasClass('selected')) {
+            return false;
+          }
+          var $optionSet = $this.parents('.project_filters');
+          $optionSets.find('.selected').removeClass('selected');
+          $this.addClass('selected');
+
+          var selector = $(this).attr('data-filter');
+          $container.isotope({
+            filter: selector,
+          });
+          return false;
+        });
+      });
+    });
 
     /*------------------------------
         PROGRESSBAR

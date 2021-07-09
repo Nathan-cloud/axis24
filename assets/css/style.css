@@ -1412,8 +1412,8 @@ a.more-button:hover i {
 }
 
 .fun-fact-area .area-bg::after {
-  background: rgba(0, 0, 0, 0) url('/assets/img/funfact-map.png') no-repeat
-    scroll center center;
+  background: rgba(0, 0, 0, 0) url('funfact-map.png') no-repeat scroll center
+    center;
 }
 
 .single-fun-fact {
@@ -1760,7 +1760,79 @@ a.more-button:hover i {
     17. TEAM ELEVEN STYLE
 -------------------------------*/
 
-.single-team-eleven {
+/**** Isotope Filtering ****/
+.project_filters {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+.project_filters:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.project_filters li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.project_filters li:last-child {
+  margin-right: 0;
+}
+.project_filters li:first-child {
+  margin-left: 0;
+}
+
+.project_filters li a {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  outline: none;
+  color: #1b1d21;
+  padding-bottom: 10px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.project_filters li a:hover,
+.project_filters li a.selected {
+  color: #0a0c19;
+}
+.project_filters li a:after {
+  position: absolute;
+  height: 3px;
+  width: 0%;
+  right: 0px;
+  bottom: 0px;
+  background-color: #0a0c19;
+  content: '';
+  display: block;
+  border-radius: 1.5px;
+  -webkit-border-radius: 1.5px;
+  -moz-border-radius: 1.5px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.project_filters li a:hover:after,
+.project_filters li a.selected:after {
+  opacity: 1;
+  left: 0;
+  right: auto;
+  width: 100%;
 }
 
 .single-team-eleven .member-details {
@@ -2384,31 +2456,10 @@ a.more-button:hover i {
   color: inherit;
 }
 
-/* .barner-area .area-bg {
-  background: -webkit-gradient(
-        linear,
-        right top,
-        left top,
-        from(#84c0e3),
-        to(rgb(56 182 255))
-      )
-      repeat scroll 0 0%,
-    rgba(0, 0, 0, 0) -webkit-gradient(
-        linear,
-        right top,
-        left top,
-        from(#84c0e3),
-        to(rgb(56 182 255))
-      ) repeat scroll 0 0;
-  background: linear-gradient(to left, #84cde3, rgb(56 182 255)) repeat scroll 0
-      0%,
-    rgba(0, 0, 0, 0) linear-gradient(to left, #8490e3, rgb(56 182 255)) repeat
-      scroll 0 0;
-} */
 
 .barner-area .area-bg {
   background: linear-gradient(to right top, #84cde3, #58c6e7c2),
-    url('/assets/img/header-bg.jpg') no-repeat scroll, center;
+    url('header-bg.jpg') no-repeat scroll, center;
   background-size: cover;
 }
 .modal-content {
@@ -3472,8 +3523,8 @@ a.video-button:hover {
 
 .top-bg-layer-1,
 .top-bg-layer-2 {
-  background: rgba(0, 0, 0, 0) url('/assets/img/home/home_bg_layer_1.png')
-    no-repeat scroll left top;
+  background: rgba(0, 0, 0, 0) url('home_bg_layer_1.png') no-repeat scroll left
+    top;
   height: 100%;
   left: 0;
   position: absolute;
@@ -3482,8 +3533,8 @@ a.video-button:hover {
 }
 
 .top-bg-layer-2 {
-  background: rgba(0, 0, 0, 0) url('/assets/img/home/home_bg_layer_1.png')
-    no-repeat scroll right top;
+  background: rgba(0, 0, 0, 0) url('home_bg_layer_1.png') no-repeat scroll right
+    top;
 }
 
 .home-alt2 ul#nav li a {
