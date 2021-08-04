@@ -187,10 +187,10 @@ li {
     6. SECTION TITLE
 ----------------------------------*/
 
-.area-title {
-  margin-bottom: 60px;
-  position: relative;
-}
+  .area-title {
+    margin-bottom: 60px;
+    position: relative;
+  }
 
 .subtitle {
   color: rgb(56 182 255);
