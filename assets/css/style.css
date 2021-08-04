@@ -171,6 +171,9 @@ li {
   overflow: hidden;
   height: 100%;
 }
+.welcome-text {
+  margin-left: -10px;
+}
 
 .welcome-text-area {
   height: 100%;
@@ -187,10 +190,10 @@ li {
     6. SECTION TITLE
 ----------------------------------*/
 
-  .area-title {
-    margin-bottom: 60px;
-    position: relative;
-  }
+.area-title {
+  margin-bottom: 60px;
+  position: relative;
+}
 
 .subtitle {
   color: rgb(56 182 255);
@@ -1190,6 +1193,7 @@ a.more-button:hover i {
 
 .welcome-layer {
   width: 70%;
+  margin-right: -50px;
 }
 
 .home-video-promo {
@@ -2455,7 +2459,6 @@ a.more-button:hover i {
 .home-alt .single-footer-widgets a {
   color: inherit;
 }
-
 
 .barner-area .area-bg {
   background: linear-gradient(to right top, #84cde3, #58c6e7c2),
