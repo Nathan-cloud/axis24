@@ -1190,7 +1190,9 @@ a.more-button:hover i {
   background: rgb(56 182 255) none repeat scroll 0 0;
   color: #ffffff;
 }
-
+.about-par {
+  line-height: 40px;
+}
 .welcome-layer {
   width: 70%;
   margin-right: -50px;
@@ -1300,6 +1302,20 @@ a.more-button:hover i {
 .team-content {
   position: relative;
   z-index: 9;
+}
+.category {
+  position: relative;
+}
+.join-categories {
+  background: rgb(56 182 255);
+  text-align: center;
+  width: 300px;
+
+  left: 200px;
+}
+.join-categories li {
+  color: #ffffff;
+  border-bottom: 2px solid black;
 }
 
 .process-warapper-content {
