@@ -5,6 +5,7 @@
 @import url('blog-and-pages.css');
 @import url('footer.css');
 @import url('responsive.css');
+@import url('popup.css');
 
 section,
 header {
@@ -26,7 +27,7 @@ li {
 }
 
 .background-ig {
-  background: #9e51d1af !important;
+  background: #125688 rgb(18, 86, 136) !important;
   -webkit-box-shadow: 0 16px 32px rgba(238, 163, 19, 0.2) !important;
   box-shadow: 0 16px 32px rgba(238, 163, 19, 0.2) !important;
   color: #ffffff !important;
@@ -1304,17 +1305,21 @@ a.more-button:hover i {
   z-index: 9;
 }
 .category {
-  position: relative;
+  position: absolute;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  width: 200px;
+  left: 50px;
+  z-index: 1;
 }
-.join-categories {
-  background: rgb(56 182 255);
+.category li {
+  border-bottom: 1px solid black;
+  padding: 2px;
   text-align: center;
-  width: 300px;
-  left: 200px;
-}
-.join-categories li {
-  color: #ffffff;
-  border-bottom: 2px solid black;
 }
 
 .process-warapper-content {
@@ -1746,15 +1751,6 @@ a.more-button:hover i {
   color: #ffffff;
 }
 
-@media only screen and (min-width: 1920px) {
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
 @media only screen and (max-width: 767px) {
   .call-to-action {
     display: block;
@@ -1772,7 +1768,21 @@ a.more-button:hover i {
   }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+  .category {
+    margin-left: 45%;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .category {
+    margin-left: 30%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .category {
+    margin-left: 52%;
+  }
 }
 
 /*-----------------------------
@@ -2916,6 +2926,20 @@ a.more-button:hover i {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 100px;
+}
+.round-bg .box-icon {
+  border-radius: 50%;
+  font-size: 25px;
+  height: 50px;
+  left: 50%;
+  margin: 0 auto 30px;
+  padding-top: 10px;
+  position: absolute;
+  text-align: center;
+  top: -10px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 50px;
 }
 
 .single-service-box-three .box-title {

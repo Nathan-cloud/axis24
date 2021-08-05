@@ -3,6 +3,10 @@ jQuery(document).on(
   (function ($) {
     'use strict';
 
+    $(document).ready(function () {
+      $('#popup').modal('show');
+    });
+
     /*--------------------------
         STICKY MAINMENU
     ---------------------------*/
